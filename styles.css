@@ -62,7 +62,7 @@ button:hover{
 hr{
     width: 30px;
     height: 2px;
-    background-color:#a86909 ;
+    background-color:blanchedalmond ;
 }
 .star{
     padding:10px 0;
@@ -70,6 +70,10 @@ hr{
 .star i{
     font-size: 0.8rem;
     color:gold;
+}
+
+.container h3{
+    padding:15px;
 }
 .navbar {
     font-size: 16px;
@@ -87,7 +91,7 @@ hr{
 .navbar i:hover,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar i.active{
-    color:#a86909;
+    color:rgb(255, 235, 205, 1);
 }
 
 .navbar i{
@@ -153,7 +157,7 @@ hr{
 
 #new .one:hover .details{
     cursor:pointer;
-    background-color:rgb(168, 105, 9, 0.5);
+    background-color:rgb(255, 235, 205, 0.5);
 }
 
 #new .one .details button{
@@ -249,17 +253,17 @@ footer li{
 }
 footer li a{
     font: size 0.8rem;
-    color:rgb(75, 70, 77);
+    color:blanchedalmond;
 }
 footer li a:hover{
-    color:blanchedalmond ;
+    color:rgb(75, 70, 77) ;
 }
 footer p{
     color:black;
     font-size:0.8rem;
 }
 footer h6{
-    color:rgb(75, 70, 77);
+    color:blanchedalmond;
 }
 footer .copyright a{
     color:black;
@@ -275,5 +279,5 @@ footer .copyright a{
 }
 footer .copyright a:hover{
     color:rgb(75, 70, 77);
-    background-color: blanchedalmond;
+    background-color: rgb(75, 70, 77,0.5);
 }
